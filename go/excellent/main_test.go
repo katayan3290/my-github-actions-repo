@@ -4,7 +4,7 @@ import "testing"
 
 func TestEvenOrOdd(t *testng.T) {
 
-    result := EvenOrOdd(8)
+    result := EvenOrOdd(6)
     if result != "even" {
         t.Errorif("expected: even, actual: %s", result)
     }
